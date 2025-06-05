@@ -14,6 +14,8 @@ in {
     lolcat
   ];
 
+  android.enable = true;
+
   scripts.hello.exec = ''
     figlet -w 120 $GREET | lolcat
   '';
