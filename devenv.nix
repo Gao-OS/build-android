@@ -34,10 +34,12 @@ in {
     bison
     flex
     lzop
-    python3
     ccache
     zlib
     ncurses5
+    maven
+    python312Full
+    python312Packages.protobuf
   ];
 
   android.enable = true;
